@@ -1,6 +1,6 @@
+using Common;
 using UnityEngine;
 using UnityEngine.Events;
-using Weapons;
 
 namespace Player {
     [RequireComponent(typeof(PlayerInput))]

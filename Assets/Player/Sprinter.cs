@@ -24,7 +24,7 @@ namespace Player {
         }
 
         public void StartSprint() {
-            if (_sprintCoroutine != null || _stamina.GetCurrentStamina() <= 0f) return;
+            if (_sprintCoroutine != null || _stamina.GetCurrentStamina() <= 0u) return;
 
             _sprinting = true;
             _playerMovement.IncreaseSpeed(speedBoost);
